@@ -50,9 +50,13 @@ Presentation: Des chocolats aux fruits secs et fruits confits, pour une explosio
 Clients:
 
 Nom: Sophie
+
 Type Prestation: Coffret cadeau personnalisé
+
 Commentaire: Le coffret de chocolats que j'ai offert était magnifique et délicieux. Les saveurs étaient variées et originales, et la présentation était très soignée. Un grand merci au Palais du Chocolat pour ce cadeau parfait.
+
 Note: 5
+
 
 Nom: Antoine
 Type Prestation: Mariage
