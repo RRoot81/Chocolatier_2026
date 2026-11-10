@@ -1,0 +1,73 @@
+body {
+    background-color: #330B00;
+    margin: 0;
+    font-family: Quicksand;
+}
+
+strong {
+    font-family: Engagement;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    
+    height: 100px;
+    background-color: #B38C81;
+    position: sticky;
+    border-radius: 0px 0px 30px 30px;
+    z-index: 999;
+
+    img  {
+        width: 90px;
+        height: 90px;
+        margin-left: 35px;
+        padding: 5px;
+    }
+    div {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 25vw;
+        margin-right: 40px;
+        a {
+            font-size: 20;
+            text-decoration: none;
+            color: #003324;
+        }
+
+    }
+}
+
+
+.hero {
+    display: flex;
+    height: 50vw;
+    div{
+        min-width: 50%;
+        max-height: 50vw;
+    }
+}
+
+.hero_img {
+    background-image: url(aset/promesses-julia-zyablova-EwaJbJvS9io-unsplash\ \(1\).jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 30px 0px 0px 30px;
+}
+
+.hero_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 20px;
+    background-color:#EFF1EC;
+    border-radius: 0px 30px 30px 0px;
+}
+
+.hero_p {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0;
+    color: #003324;
+}
