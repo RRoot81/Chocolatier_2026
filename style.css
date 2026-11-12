@@ -6,6 +6,7 @@ body {
     background-position: center;
     background-size: cover;
 }
+
 a {
     text-decoration: none;
 }
@@ -35,17 +36,22 @@ header {
     div {
         display: flex;
         align-items: center;
-        justify-content: space-between;
-        width: 25vw;
+        gap: 40px;
+        width: 45vw;
         margin-right: 40px;
 
         a {
             font-size: 20;
             text-decoration: none;
             color: #003324;
+            transition: 0.4s;
         }
 
     }
+}
+
+.nav_bouton:hover {
+    transform: scale(1.2);
 }
 
 main>section {
@@ -67,10 +73,11 @@ main>section {
 }
 
 .hero_img {
-    background-image: url("aset/promesses-julia-zyablova-EwaJbJvS9io-unsplash\ \(1\).jpg");
+    background-image: url("aset/promesses-julia-zyablova-EwaJbJvS9io-unsplash\ 2.png");
     background-position: center;
     background-size: cover;
     border-radius: 30px 0px 0px 30px;
+    background-color: #EFF1EC;
 }
 
 .hero_text {
@@ -92,11 +99,11 @@ main>section {
 .Services {
     display: flex;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 26px;
 }
 
 .div_service {
-    border: solid #418772 1px;
+    border: solid #418772 2px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -115,6 +122,11 @@ main>section {
     }
 }
 
+.div_service:hover {
+    transform:scale(1.05);
+
+}
+
 .p_sevices {
     margin: 10px;
     padding: 10px;
@@ -122,23 +134,30 @@ main>section {
     background-color: rgba(255, 255, 255, 0.571);
 }
 
+.logo:hover {
+    border-color: #330B00;
+}
 
 .Cadeaux_personnalisés {
     background-image: url("aset/cadeaux-personnalises-pexels-soufianlafnesh-36914973\ \(1\).jpg");
     background-position: center;
     background-size: cover;
+    transition: 0.8s;
+    
 }
 
 .Ateliers_de_dégustation {
     background-image: url("aset/atelier-degustation-pexels-jonathanborba-34357862\ \(1\).jpg");
     background-position: center;
     background-size: cover;
+    transition: 0.8s;
 }
 
 .Chocolats_artisanaux {
     background-image: url("aset/chocolats-artisanaux-pexels-linken-van-zyl-263454378-18958634\ \(2\).jpg");
     background-position: center;
     background-size: cover;
+    transition: 0.8s;
 }
 
 .article_chocolat {
@@ -152,7 +171,7 @@ main>section {
     width: 300px;
     height: 300px;
     border-radius: 10px;
-    
+    transition: 0.8s;
 }
 
 .card {
@@ -171,6 +190,12 @@ main>section {
         font-size: 50px;
         font-weight: normal;
         text-align: center;
+    }
+}
+
+.card:hover {
+    img {
+        transform: scale(1.09);
     }
 }
 
@@ -221,7 +246,6 @@ main>section {
 footer {
     margin-top: 80px;
     display: flex;
-    justify-content: center;
     gap: 100px;
     align-items: flex-end;
     height: 100px;
@@ -246,9 +270,12 @@ h1 {
     font-weight: normal;
     margin-bottom: 16px;
     color: #330B00;
+    flex: 1;
+    text-align: center;
 }
 
 .nous_contacter {
+    flex: 1;
     margin-bottom: 24px;
     color: #330B00;
     a{
