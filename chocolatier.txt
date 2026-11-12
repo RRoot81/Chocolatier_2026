@@ -59,11 +59,18 @@ Note: 5
 
 
 Nom: Antoine
+
 Type Prestation: Mariage
+
 Commentaire: Les chocolats du Palais du Chocolat ont été un véritable succès lors de notre mariage. Tout le monde a adoré les saveurs raffinées et les présentations élégantes. Un grand bravo à toute l'équipe.
+
 Note: 5
 
+
 Nom: Nicolas
+
 Type Prestation: Achat en boutique
+
 Commentaire: J'ai acheté une tablette de chocolat noir au Palais du Chocolat et je n'ai pas été déçu. Le chocolat était intense et puissant, avec des notes subtiles de fruits secs. Un vrai régal pour les papilles.
+
 Note: 4
